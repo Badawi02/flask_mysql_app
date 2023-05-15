@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-svc
+  namespace: ingress-nginx
+spec:
+  type: NodePort
+  selector:
+    name: flask-app
+  ports:
+    - port: 80
+      targetPort: 5002
+      nodePort: 31000
