@@ -41,7 +41,7 @@
   aws configure
 ```
 - Change the path and point it to AWS credentials files like this :
-![agent]()
+![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/0.png)
 -----------------------------------------------------------------------------------------
 ### Build the Infrastructure
 ```bash
@@ -57,7 +57,7 @@
   terraform apply
 ```
 - Output:
-![agent]()
+![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/1.png)
 - Copy the public IP from terrafom 
 
 Now you can check your AWS account, you can see this resources has been created:
@@ -82,36 +82,36 @@ Now you can check your AWS account, you can see this resources has been created:
     ansible-playbook -i inventory install_jenkins.yml
 ```
 - Output:
-![agent]()
+![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/2.png)
 - Copy the output from ansible
 
 ## Make pipleline :
 
 - You can access jenkins from browser >  http://<public_ip for ec2>:8080
 - put the output from ansible in init password like this :
- ![agent]()
+ ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/3.png)
 - install suggested plugins :
- ![agent]()
+ ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/4.png)
 - create account in Jenkins :
- ![agent]()
+ ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/5.png)
 - Now you can enter to jenkins :
- ![agent]()
+ ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/7.png)
 - put your credentials ( you must use the same ID ) like this :
- ![agent]()
+ ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/8.png)
 - create your pipleline :
- ![agent]()
+ ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/9.png)
 - configure your pipleline, put your url of repo and choose your github credentials :
- ![agent]()
+ ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/10.png)
 - build your pipleline :
- ![agent]()
- ![agent]()
+ ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/11.png)
+ ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/12.png)
 - From output of jenkins (url) , You can You can access your application :
-  ![agent]()
-  ![agent]()
+  ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/13.png)
+  ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/14.png)
 
 ## You can find all images you build it in ECR :
-  ![agent]()
-  ![agent]()
+  ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/15.png)
+  ![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/16.png)
 
 
 ## That will deploy on EKS:
@@ -136,7 +136,7 @@ Now you can check your AWS account, you can see this resources has been created:
 - ingress nginx controller
 - ingress for routing the app
 - Output:
-![agent]()
+![agent](https://github.com/Badawi02/_VOIS-TASK/blob/main/SreenShots/17.png)
 
 ## Contributors:
 - [Ahmed Badawi](https://github.com/Badawi02)
