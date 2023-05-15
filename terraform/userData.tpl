@@ -29,3 +29,8 @@ sudo ./aws/install --update
 curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.24.10/2023-01-30/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$PATH:$HOME/bin
+
+
+# ================= install jq command ===============
+
+sudo apt-get install jq -y
