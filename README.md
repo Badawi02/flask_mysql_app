@@ -1,4 +1,3 @@
-# _VOIS-Task
 ## Tools Used
  - AWS
  - Terraform
